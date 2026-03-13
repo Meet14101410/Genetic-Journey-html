@@ -1,0 +1,10 @@
+function check(answer){
+  let result = document.getElementById("result");
+
+  if(answer === "A"){
+    result.innerHTML = "Correct! DNA carries genetic information 🎉";
+  } 
+  else{
+    result.innerHTML = "Wrong answer! Try again ❌";
+  }
+}
