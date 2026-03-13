@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Genetic Journey</title>
+</head>
+
+<body style="text-align:center; font-family:Arial;">
+
+<h1>Genetic Journey 🧬</h1>
+<p id="question">What carries genetic information?</p>
+
+<button onclick="check('A')">DNA</button>
+<button onclick="check('B')">Protein</button>
+<button onclick="check('C')">Lipid</button>
+
+<p id="result"></p>
+
+<script>
+function check(answer){
+  if(answer==='A'){
+    document.getElementById("result").innerHTML="Correct! 🎉";
+  } else {
+    document.getElementById("result").innerHTML="Wrong! Try again.";
+  }
+}
+</script>
+
+</body>
+</html>
